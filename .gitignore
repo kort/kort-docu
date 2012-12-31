@@ -29,3 +29,4 @@
 *.tdo
 *.ldb
 *.bak
+/nbproject/private/
