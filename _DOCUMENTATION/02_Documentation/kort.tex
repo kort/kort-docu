@@ -1,0 +1,103 @@
+\input{settings/preamble}
+\begin{document}
+
+% -----------------------------------------
+% HEAD
+% -----------------------------------------
+% Titelseite
+\title{Gamified Mobile App für die Verbesserung von OpenStreetMap}
+\author{Jürg Hunziker
+		\and
+		Stefan Oderbolz}
+\date{21. Dezember 2012}
+
+\input{head/titlepage.tex}
+
+% Seitennummerierung mit roemischen Zeichen
+\pagenumbering{roman}
+
+% Glossar (muss vor Body inkludiert werden, damit Referenzen funktionieren)
+\input{foot/glossar.tex}
+
+% TODO Liste
+% Titel auch in Kopfzeile anzeigen
+%\markboth{Todo list}{Todo list}
+%\listoftodos
+
+% Impressum & Aenderungsverlauf
+\input{head/impressum_revision.tex}
+
+% Erklaerung
+\input{head/erklaerung.tex}
+
+% Abstract
+\input{head/abstract.tex}
+
+% Management Summary
+\input{head/managementsummary.tex}
+
+% Inhaltsverzeichnis
+\tableofcontents
+
+% -----------------------------------------
+% BODY
+% -----------------------------------------
+% Neue Seite beginnen (um Seitennummerierung zurückzusetzen)
+\cleardoublepage
+
+% Seitennummerierung mit arabischen Zeichen
+\pagenumbering{arabic}
+
+% Einführung
+% Titel auch in Kopfzeile anzeigen
+\markboth{Teil I. Einführung}{Teil I. Einführung}
+\part{Einführung}
+\input{body/einfuehrung.tex}
+
+% Neue Seite beginnen
+\cleardoublepage
+
+% Projektdokumentation
+% Titel auch in Kopfzeile anzeigen
+\markboth{Teil II. Projektdokumentation}{Teil II. Projektdokumentation}
+\part{Projektdokumentation}
+\input{body/projektdokumentation.tex}
+
+% Neue Seite beginnen
+\cleardoublepage
+
+% Projektmanagement
+% Titel auch in Kopfzeile anzeigen
+\markboth{Teil III. Projektmanagement und -monitoring}{Teil III. Projektmanagement und -monitoring}
+\part{Projektmanagement und -monitoring}
+\input{body/projektmanagement_monitoring.tex}
+
+% -----------------------------------------
+% FOOT
+% -----------------------------------------
+% Neue Seite beginnen
+\cleardoublepage
+
+% Anhänge
+% Titel auch in Kopfzeile anzeigen
+\markboth{Teil V. Anhänge}{Teil V. Anhänge}
+\part{Anhänge}
+
+% Inhalt der CD
+\input{foot/cdinhalt.tex}
+
+% Glossar
+\printglossary[style=altlist,title=Glossar,toctitle=Glossar]
+\label{glossar}
+
+% Literaturverzeichnis
+\bibliographystyle{plainurl}
+\bibliography{foot/literatur}
+
+% Abbildungsverzeichnis
+\listoffigures
+
+% Tabellenverzeichnis
+\listoftables
+
+\end{document}

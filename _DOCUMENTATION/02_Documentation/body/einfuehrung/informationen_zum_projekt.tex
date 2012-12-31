@@ -1,0 +1,84 @@
+\chapter{Informationen zum Projekt}
+\label{informationen-projekt}
+
+
+\section{Problemstellung}
+\brand{OpenStreetMap} (OSM) ist ein freies Projekt, welches jedermann ermöglicht, Kartendaten anzuzeigen und zu editieren.
+Durch diesen öffentlichen Charakter ist es nicht ausgeschlossen, dass fehlerhafte bzw. unvollständige Daten eingetragen werden.
+
+Aus diesem Grund entstand die Idee, mit einer mobilen Applikation eine Möglichkeit anzubieten, Fehler auf einfache Weise anzuzeigen und zu korrigieren.
+Um die Motivation für die Verwendung der App längerfristig aufrecht zu erhalten, soll diese mit Spiel-Elementen versehen werden.
+
+\section{Aufgabenstellung}
+Im Rahmen dieser Arbeit wird eine HTML5 \gls{WebApp} entwickelt, welche es ermöglicht, unvollständige bzw. fehlerhafte Daten in der \brand{OpenStreetMap}-Datenbank zu korrigieren oder zu vervollständigen.
+
+Die App soll nicht als herkömmlicher Editor implementiert werden, sondern einen gewissen Gamecharakter aufweisen.
+Dieser zeichnet sich dadurch aus, dass die Benutzer für ihre Änderungsvorschläge belohnt werden.
+So können sie beispielsweise in der Rangliste (Highscore) aufsteigen oder Auszeichnungen (Badges) gewinnen.
+Dieses Konzept ist unter dem Stichwort \gls{Gamification} bekannt.
+Damit ist allgemein die Anwendung von Spiel-Elementen in einem spielfremden Kontext gemeint.
+Es soll untersucht werden, ob und wie sich dies für \brand{OpenStreetMap} umsetzen lässt.
+
+Eingetragene Änderungsvorschläge können anschliessend von weiteren Benutzern kontrolliert und bewertet werden.
+Mehrfach validierte Änderungen sollen ins \brand{OpenStreetMap}-Projekt zurückgeführt werden.
+
+Mit der Integration von Social Media-Diensten (Facebook, Twitter) soll die Bekanntheit der App gefördert und die Motivation der Benutzer gesteigert werden.
+
+\cleardoublepage
+\section{Ziele}
+In der Aufgabenstellung der Arbeit wurden folgende Ziele definiert:
+\begin{itemize}
+	\item Erstellen einer cross-platform HTML5 \gls{WebApp} mit JavaScript
+	\item Einsatz von JavaScript-\glspl{API} zur Ansteuerung von Hardwarekomponenten (z.B. GPS, Kamera)
+	\item Es soll geprüft werden, ob die \gls{WebApp} auch als native App für die Plattformen iOS und Android zur Verfügung gestellt werden kann 
+	\item Als Basis sollen Daten und Webdienste des \brand{OpenStreetMap}-Projekts verwendet werden
+	\begin{itemize}
+		\item Quellen für bekannte Fehler: \brand{OpenStreetMap} Bug Reports, \inlinecode{FIXME}- und \inlinecode{TODO}-\glspl{Tag}
+		\item Unterstützung von \gls{POI}-, Linestring- und Polygon-Objekten
+	\end{itemize}
+	\item Verwendung einer vorhandenen User-Basis für die Authentifizierung (\gls{OAuth})
+	\item Integration von Social Media zum Austausch von Aktivitäten
+	\item Konzept für Gamification von \brand{OpenStreetMap} erarbeiten
+	\begin{itemize}
+		\item Highscores / Rankings
+		\item Badges / Achievements
+		\item Aufgaben mit verschiedenen Schwierigkeitsstufen
+	\end{itemize}
+	\item Verschiedene Modi
+	\begin{itemize}
+		\item Erfassen von Daten, Aufnahme von Fotos (ortsbezogen)
+		\item Verifikation von eingegebenen Daten (ortsunabhängig)
+	\end{itemize}
+	\item Das User Interface soll primär auf Deutsch erstellt werden. Es sollen jedoch Vorkehrungen getroffen werden, um Übersetzungen einfach zu ermöglichen (Internationalisierung)
+\end{itemize}
+
+\section{Rahmenbedingungen}
+\begin{itemize}
+\item Es gelten die Rahmenbedingungen, Vorgaben und Termine der HSR
+\item Die Projektabwicklung orientiert sich an einer iterativen, agilen Vorgehensweise. Als Vorgabe dient dabei Scrum, wobei bedingt durch das kleine Projektteam gewisse Vereinfachungen vorgenommen werden.
+\item Die Kommunikation in der Projektgruppe, in der Dokumentation und an den Präsentationen erfolgt auf Deutsch.
+\end{itemize}
+
+\section{Aufbau der Arbeit}
+Die Arbeit ist in drei Teile gegliedert. Im ersten Teil erfolgt eine Einleitung mit allgemeinen Informationen zum Projekt und dessen Umsetzung (siehe Kapitel \ref{informationen-projekt}. Informationen zum Projekt, \ref{umsetzung}. Umsetzung und \ref{kort-definitionen}. Definitionen). Darin werden auch Begriffe erklärt, welche während der Arbeit entwickelt oder oft verwendet werden.
+
+Der zweite Teil beinhaltet die Dokumentation der eigentlichen Arbeitsresultate (siehe Kapitel \ref{kort}. Kort, \ref{leaflet-sencha-komponente}. Leaflet Komponente, \ref{gamification}. Gamification, \ref{datenquellen}. Datenquellen, \ref{architektur}. Architektur, \ref{infrastruktur}. Infrastruktur, \ref{backend}. Backend und \ref{administration}. Administration). Darin wird unter anderem die Implementation der \gls{WebApp} beschrieben und die Infrastruktur, welche für den Betrieb notwendig ist.
+
+Im dritten Teil befinden sich Informationen zum Projektmanagement (siehe Kapitel \ref{projektmanagement}. Projektmanagement und \ref{projektmonitoring}. Projektmonitoring).
+
+Neben diesem Dokument umfasst die Arbeit die implementierte \gls{WebApp} \kort{}. Der dazugehörige Source Code ist frei im Internet zugänglich, sowie auf der beigelegten CD zu finden.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{0.3\twocelltabwidth}|p{0.7\twocelltabwidth}|}
+\hline 
+\textbf{Arbeitsresultat} & \textbf{URL} \\ 
+\hline 
+\kort{} (\gls{WebApp}) & \url{http://kort.herokuapp.com} \\ 
+\hline 
+Repository & \url{https://github.com/odi86/kort} \\ 
+\hline 
+\end{tabular}
+\label{arbeitsresultate}
+\caption{Übersicht der Arbeitsresultate}
+\end{table} 

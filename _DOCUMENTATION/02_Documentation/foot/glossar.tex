@@ -1,0 +1,137 @@
+% Glossar
+\newglossaryentry{API} {
+	name = API,
+	description = {Application Programming Interface, Schnittstelle für die Programmierung}
+}
+
+\newglossaryentry{OAuth} {
+	name = OAuth,
+	description = {OAuth ist ein offenes Protokoll, das eine standardisierte, sichere API-Autorisierung erlaubt\cite{oauth}}
+}
+
+\newglossaryentry{CRUD} {
+	name = CRUD,
+	description = {Das Akronym CRUD beschreibt die 4 Standardoperationen einer Datenbank: \textbf{C}reate, \textbf{R}ead, \textbf{U}pdate, \textbf{D}elete\cite{crud}}
+}
+
+\newglossaryentry{AntTarget} {
+	name = Ant Target,
+	description = {Das Buildautomatisierungs-Tool Ant nennt die einzelnen Schritte eines Builds \emph{Target}. Targets sind eine Sammlung von semantisch zusammengehörigen Tasks. Sie können Abhängigkeiten zu anderen Targets aufweisen, welche dann als Vorbedingung zuerst ausgeführt werden\cite{ant-target}}
+}
+
+\newglossaryentry{Cloud} {
+	name = Cloud,
+	description = {Als Cloud oder Cloud-Computing (\emph{Wolke}) bezeichnet man die Gesamtheit aller Dienste, welche ortsunabhängig im Internet angeboten werden. Dies können zum Beispiel Datenspeicher, Server oder Datenbanken oder schlicht Rechenleistung sein. Der grosse Vorteil der Cloud ist, dass sie sehr leicht skalierbar ist, so dass man  die Leistungen dynamisch an den Bedarf angepassen kann\cite{cloud}}
+}
+
+\newglossaryentry{HeadlessBrowser} {
+	name = headless Browser,
+	description = {Bei einem \emph{headless Browser} handelt es sich um einen Browser, welcher ohne grafische Benutzeroberfläche auskommt. Häufig werden sie dazu verwendet, um Serverjobs, welche auf den Browser angewiesen sind, auszuführen}
+}
+
+\newglossaryentry{WebApp} {
+	name = Web-App,
+	description = {Der Begriff Web-App (von der englischen Kurzform für web application), bezeichnet im allgemeinen Sprachgebrauch Apps für mobile Endgeräte wie Smartphones und Tablet-Computer, die über einen in das Betriebssystem integrierten Browser aus dem Internet geladen und so ohne Installation auf dem mobilen Endgerät genutzt werden können\cite{webapp}}
+}
+
+\newglossaryentry{REST} {
+	name = REST,
+	description = {Representational State Transfer\cite{rest} ist ein Programmierparadigma, welches besagt, dass sich der Zustand einer Webapplikation als Ressource in Form einer URL beschreiben lässt. Auf eine solche Ressourcen können folgende Befehle angewendet werden: \inlinecode{GET}, \inlinecode{POST}, \inlinecode{PUT}, \inlinecode{PATCH}, \inlinecode{DELETE}, \inlinecode{HEAD} und \inlinecode{OPTIONS}.
+	HTTP ist ein Protokoll welches REST implementiert}
+}
+
+\newglossaryentry{Git} {
+	name = Git,
+	description = {Git ist ein verteiltes Versionsverwaltungssystem für Dateien. Ursprünglich wurde es für die Entwicklung des Linux Kernels kreiert}
+}
+
+\newglossaryentry{ci} {
+	name = Continuous Integration,
+	description = {Unter dem Begriff \emph{Continuous Integration}\cite{cont-integration} beschreibt die Idee, dass Änderungen an einer Software schnell eingebracht werden sollen. Dazu zählt, dass diese in einem Versionsverwaltungs-Tool eingetragen und durch automatisierte Tests geprüft werden}
+}
+
+\newglossaryentry{Bootstrapping} {
+	name = Bootstrapping,
+	description = {Bootstrapping wird der Prozess genannt, der auf einem einfachen System ein komplexeres System aktiviert\cite{bootstrapping}. Dadruch wird das System ermächtigt, sich selbst zu starten. Deshalb wird Bootstrapping auch Lösung für das Henne-Ei-Problem genannt}
+}
+
+\newglossaryentry{POI} {
+	name = POI,
+	description = {Abkürzung für Point of Interest. Dies ist ein allgemeiner Begriff für einen Ort mit irgendeiner Bedeutung, sei es eine Schule, Kirche, Bushaltestelle oder sonst etwas von besonderem Interesse}
+}
+
+\newglossaryentry{Mapper} {
+	name = Mapper,
+	description = {Personen welche auf OpenStreetMap die Karten ergänzen und pflegen, nennen sich selbst \emph{Mapper}}
+}
+
+\newglossaryentry{App-Store} {
+	name = App-Store,
+	description = {Ein App-Store ist eine Verkaufsplattform eines Betriebssystemherstellers für Smartphones, beispielsweise Google Play für Android, Apple App Store für iOS}
+}
+
+\newglossaryentry{Camera API} {
+	name = Camera API,
+	description = {Das Camera API ist eine Spezifikation vom W3C\cite{camera-api}, welches den Zugriff auf die Kamera und die Bilder eines Endgerätes beschreibt}
+}
+
+\newglossaryentry{Microloader} {
+	name = Microloader,
+	description = {Der Microloader ist dafür zuständig, beim Starten einer Sencha Touch Applikation alle verwendeten Ressourcen (wie JavaScript- oder CSS-Files) zu laden}
+}
+
+\newglossaryentry{Local Storage} {
+	name = Local Storage,
+	description = {Beim Local Storage handelt es sich um einen Key-Value Speicher des Browsers in welchen Daten einer Webseite persistiert werden können}
+}
+
+\newglossaryentry{Node} {
+	name = Node,
+	description = {Ein Node ist das grundlegendste Objekt in OpenStreetMap, es wird durch seine Attribute (genannt \glspl{Tag}) genauer bestimmt. Nodes können Teil eines \gls{Way} sein}
+}
+
+\newglossaryentry{Way} {
+	name = Way,
+	description = {Ein Weg oder eine Strasse wird in OpenStreetMap als \emph{Way} bezeichnet. Es handelt sich dabei um eine Serie von miteinander verbundenen Nodes}
+}
+
+\newglossaryentry{Relation} {
+	name = Relation,
+	description = {Eine Relation stellt eine Verbindung zwischen verschiedenen OSM-Objekten dar. Relationen werden meist dazu gebraucht, um übergeordnete Beziehungen darzustellen. Beispielsweise können alle Bushaltestellen einer Buslinie über eine Relation miteinander verknüpft sein}
+}
+
+\newglossaryentry{Tag} {
+	name = Tag,
+	description = {Ein Tag bezeichnet ein Attribut eines \glslink{Node}{Nodes}. Es besteht aus einem Namen und einem Wert. Ein \gls{Node} kann beliebig viele Tags beinhalten}
+}
+
+\newglossaryentry{OpenStreetMap} {
+	name = OpenStreetMap,
+	description = {OpenStreetMap ist ein freies Projekt, das für jeden frei nutzbare Geodaten sammelt (Open Data). Mit Hilfe dieser Daten können Weltkarten errechnet oder Spezialkarten abgeleitet werden sowie Navigation betrieben werden}
+}
+
+\newglossaryentry{Gamification} {
+	name = Gamification,
+	description = {Unter Gamification versteht man das Hinzufügen von Spiel-Elementen in einem nicht spieltypischen Kontext}
+}
+
+\newglossaryentry{MVC} {
+	name = MVC,
+	description = {Der englischsprachige Begriff \emph{model view controller} (MVC) ist ein Muster zur Strukturierung von Software-Entwicklung in die drei Einheiten Datenmodell (model), Präsentation (view) und Programmsteuerung (controller)\cite{patterns}}
+}
+
+\newglossaryentry{Crowdsourcing} {
+	name = Crowdsourcing,
+	description = {Unter Crowdsourcing versteht man die Auslagerung von  Auslagerung von traditionell internen Teilaufgaben an eine Menge von freiwilligen Usern im Internet\cite{crowdsourcing}}
+}
+
+\newglossaryentry{Routing} {
+	name = Routing,
+	description = {Routing beschreibt den Vorgang einen optimalen Weg zwischen zwei oder mehr Punkten zu finden. Eine so gefundene Strecke wird oft als \emph{Route} bezeichnet}
+}
+
+\newglossaryentry{Marshalling} {
+	name = Marshalling,
+	description = {Als Marshalling wird der Vorgang bezeichnet, bei dem strukturierte oder elementare Daten in ein Format umgewandelt werden, welches sich für die Übertragung eignet\cite{marshalling}. Auf der Empfängerseite geschieht dann ein entsprechendes Unmarshalling um wieder die ursprünglichen Daten zu bekommen.
+Gängige Formate sind JSON oder XML}
+}

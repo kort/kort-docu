@@ -1,0 +1,59 @@
+\chapter{Projektmonitoring}
+\label{projektmonitoring}
+
+% Meilensteine
+\input{body/projektmanagement_monitoring/meilensteine.tex}
+
+% Risikomanagement
+\input{body/projektmanagement_monitoring/risikomanagement.tex}
+
+\section{Projektverlauf}
+Das Projekt bestand aus 5 Sprints, wobei wir ursprünglich 6 geplant haben.
+Gegen Ende des Projekts mussten wir uns eingestehen, dass der Overhead für zweiwöchige Sprints zu gross ist, deshalb haben wir die letzten beiden Sprints auf 3 Wochen erweitert.
+
+Dank unserem Projektmanagement-Tool \brand{Redmine}, hatten wir eine gute Übersicht über das Projekt.
+Jeweils am Ende eines Sprints haben wir besprochen, wie wir weiterfahren sollen und entsprechend den nächsten Sprint geplant.
+Durch diese Iterationen war es uns möglich, schnell ein System zu erstellen, welches den aktuellen Bedürfnissen entspricht.
+
+Abschliessend ist zu sagen, dass das Projekt gut verlaufen ist und wir grundsätzlich alle unsere Ziele erreichen konnten (siehe Abschnitt \ref{fazit}).
+Daneben gab es auch Raum, kreative Ideen auszuprobieren.
+
+\section{Arbeitsaufwand}
+Wie im Kapitel \ref{projektmanagement} beschrieben, war der vom Modul vorgegebene Aufwand pro Person auf \emph{360 Stunden} festgelegt. Leider haben wir beide diese Vorgabe leicht überschritten (siehe Tabelle \ref{projektmanagement-arbeitsaufwand}).
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline 
+\textbf{Person} & \textbf{Aufwand} \\ 
+\hline 
+Jürg Hunziker & 379h \\
+\hline 
+Stefan Oderbolz & 394h \\  
+\hline 
+\end{tabular}
+\caption{Arbeitsaufwand pro Person}
+\label{projektmanagement-arbeitsaufwand}
+\end{table} 
+
+\section{Fazit}
+\label{fazit}
+Die entwickelte \gls{WebApp} erfüllt alle Erwartungen an eine moderne Applikation.
+Ein Benutzer kann mit der App die gewünschten Aufgaben (Fehler korrigieren und validieren) durchführen und wird durch einige Gamification-Konzepte animiert, die App weiter zu verwenden.
+
+In der knapp bemessenen Zeit ist es uns aber nicht gelungen ein vollwertiges Spiel zu entwickeln.
+Dazu müsste noch mehr Wert auf Details gelegt werden, so dass ein abgerundetes Spielerlebnis entsteht.
+Schlussendlich haben wir uns mehr auf die Grundfunktionalität der \gls{WebApp} konzentriert.
+
+Mit Hilfe der \gls{ci} hatten wir stets ein lauffähiges System.
+Dieses wurde bei jeder Änderung automatisiert neu gebaut und auf alle Systeme ausgerollt.
+
+Dank der agilen Vorgehensweise konnten wir schnell auf Änderungen in den Anforderungen oder Probleme reagieren, welche sich bei einem solchen Projekt zwangsläufig ergeben.
+Wir waren uns zu Beginn noch nicht bewusst, welche Funktionalitäten wichtig sind und welche weniger.
+Der ursprüngliche Plan war, so schnell wie möglich den Roundtrip durch alle Systeme zu erfolgreich durchführen zu können.
+Als wir aber erkannten, dass wir es mit vielen verschiedenen Schnittstellen zu tun haben, sind wir von diesem Plan wieder abgekommen und haben uns dazu entschlossen, zuerst unsere App zu stabilisieren und dann eine Schnittstelle nach der anderen anzuschauen.
+
+Die Arbeit hat uns viele spannende Einblicke in \brand{OpenStreetMap} und die Thematik der \gls{Gamification} ermöglicht.
+Das \brand{OpenStreetMap}-Umfeld ist sehr interessant und die intensive Arbeit mit Fehlerdaten hat uns gezeigt wie einzigartig dieses Projekt ist.
+
+Wir hoffen, dass auch unsere App ihren Teil dazu beiträgt neue Benutzer fürs \glslink{Mapper}{Mappen} zu begeistern.

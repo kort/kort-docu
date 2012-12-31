@@ -1,0 +1,79 @@
+\section{Risikomanagement}
+\label{risikomanagement}
+
+Für das Projekt wurden folgende Risiken identifiziert:
+\subsection{Technische Risiken}
+
+\subsubsection{OpenStreetMap-Daten können nicht in einer Sencha Touch-Applikation angezeigt werden}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{0.25\twocelltabwidth}|p{0.75\twocelltabwidth}|}
+\hline 
+\small{\textbf{Auswirkung}} & Es müsste ein alternatives mobiles Framework gefunden werden, welches mit \brand{OpenStreetMap}-Daten umgehen kann. \\
+\hline 
+\small{\textbf{Wahrscheinlichkeit}} & tief \\
+\hline 
+\small{\textbf{Massnahme zur Verhinderung}} & Zu Beginn des Projektes muss eine Sencha Touch Prototyp-Applikation implementiert werden, welche \brand{OpenStreetMap}-Daten auf der Karte darstellt. \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Keine geeignete Fehlerdatenquelle vorhanden}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{0.25\twocelltabwidth}|p{0.75\twocelltabwidth}|}
+\hline 
+\small{\textbf{Auswirkung}} & Es müsste eine Möglichkeit gefunden werden, vorhandene Fehlerdaten so abzuändern, dass sie für den Einsatz in der App verwendet werden können. \\
+\hline 
+\small{\textbf{Wahrscheinlichkeit}} & mittel \\
+\hline 
+\small{\textbf{Massnahme zur Verhinderung}} & Es muss eine Evaluation von bestehenden Fehlerdatenquellen durchgeführt werden. \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Schwierigkeiten mit OAuth}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{0.25\twocelltabwidth}|p{0.75\twocelltabwidth}|}
+\hline 
+\small{\textbf{Auswirkung}} & OAuth ist als Protokoll bekannt, welches Schwierigkeiten bereiten kann.
+Falls sich die Anforderungen nicht umsetzen lassen, muss eine alternative Lösung gefunden werden für den Login. \\
+\hline 
+\small{\textbf{Wahrscheinlichkeit}} & mittel \\
+\hline 
+\small{\textbf{Massnahme zur Verhinderung}} & Es muss genügend Zeit für OAuth eingeplant werden. \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Fachliche Risiken}
+
+\subsubsection{OpenStreetMap erlaubt keinen allgemeinen Benutzer zum Zurückschreiben der Fehlerbehebungen}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{0.25\twocelltabwidth}|p{0.75\twocelltabwidth}|}
+\hline 
+\small{\textbf{Auswirkung}} & Es müsste eine Möglichkeit gefunden werden, die Fehlerbehebungen trotzdem in \brand{OpenStreetMap} einpflegen zu können. \\
+\hline 
+\small{\textbf{Wahrscheinlichkeit}} & mittel \\
+\hline 
+\small{\textbf{Massnahme zur Verhinderung}} & \brand{OpenStreetMap}-Community muss von der Idee hinter \kort{} überzeugt werden. \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Zu wenig Erfahrung mit Game-Design}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{0.25\twocelltabwidth}|p{0.75\twocelltabwidth}|}
+\hline 
+\small{\textbf{Auswirkung}} & Die App hat keinen Game-Charakter oder wird vom Benutzer nicht als solches erkannt. \\
+\hline 
+\small{\textbf{Wahrscheinlichkeit}} & gross \\
+\hline 
+\small{\textbf{Massnahme zur Verhinderung}} & Unser Industriepartner hat viel Erfahrung mit der Entwicklung von Games und kann uns mit Ratschlägen unterstützen.
+Daneben haben wir versucht, Designer zu involvieren welche uns unterstützen können. \\
+\hline
+\end{tabular}
+\end{table}

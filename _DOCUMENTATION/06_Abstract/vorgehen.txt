@@ -1,0 +1,1 @@
+Zur Behebung dieser Fehler ist die cross-platform Web-App Kort entwickelt worden. Diese ist in JavaScript geschrieben und basiert auf dem Sencha Touch 2 Framework. Im Backend kommt eine PostgreSQL-Datenbank zum Einsatz. Die komplette Kommunikation ist mit REST-Schnittstellen realisiert.
