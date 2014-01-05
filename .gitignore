@@ -30,3 +30,4 @@
 *.ldb
 *.bak
 /nbproject/private/
+.idea/workspace.xml
